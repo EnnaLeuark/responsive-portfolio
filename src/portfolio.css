@@ -158,6 +158,15 @@ img {
   font-weight: 500;
 }
 
+.about-me {
+  margin: 50px;
+}
+
+#profilePicture {
+  width: 300px;
+  margin: 0 50px 0 0;
+}
+
 @media (max-width: 576px) {
   h1 {
     font-size: 48px;
