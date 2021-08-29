@@ -16,7 +16,7 @@
 
 h2 {
   font-family: var(--main-font);
-  font-size: 48px;
+  font-size: 40px;
   font-weight: 700;
 }
 
@@ -174,8 +174,21 @@ img {
   }
 
   h2 {
-    font-size: 48px;
+    font-size: 30px;
     line-height: 1.5;
+  }
+
+  .sub-heading h2 {
+    font-size: 48px;
+  }
+
+  #contact-info h2 {
+    font-size: 48px;
+  }
+
+  h3,
+  h4 {
+    font-size: 16px;
   }
 
   .mb-3 {
