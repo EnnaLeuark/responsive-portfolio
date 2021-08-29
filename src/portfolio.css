@@ -5,6 +5,10 @@
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
+.heading-center {
+  font-family: "Dancing Script", cursive;
+  text-align: center;
+}
 .heading {
   text-align: center;
   margin: 0;
@@ -204,5 +208,18 @@ img {
     display: block;
     text-align: center;
     margin: 25px;
+  }
+
+  .about-me img {
+    width: 100px;
+    margin: 0;
+    display: block;
+    text-align: center;
+  }
+
+  .about-me p {
+    margin: 0;
+    display: block;
+    text-align: center;
   }
 }
