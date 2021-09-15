@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Anne Krauel's Frontend portfolio</title>
+    <title>Frontend developer - Anne Krauel</title>
     <meta
       name="description"
       content="Anne Krauel, front-end developer, based in Germany"
@@ -44,36 +44,35 @@
     <link href="src/portfolio.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-      <div class="container">
-        <a class="navbar-brand" href="#">Anne Krauel</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">About me</a>
-            </li>
-            <a class="nav-item nav-link" href="index.html#contact-info"
-              >Contact me</a
-            >
-          </ul>
-        </div>
-      </div>
-    </nav>
     <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage">
+          <img
+            id="logo"
+            class="logo d-none d-md-block"
+            src="images/logo-shecodes.png"
+            alt="logo"
+          />
+          <img
+            id="logoSmall"
+            class="logo block d-md-none"
+            src="images/logo-shecodes_small.png"
+            alt="logo small"
+          />
+        </a>
+        <ul>
+          <li class="active">
+            <a href="/index.html" title="home">Home</a>
+          </li>
+          <li><a href="/about.html" title="about Anne">About</a></li>
+          <li><a href="/work.html" titel="Anne's work">Projects</a></li>
+          <li>
+            <a href="/contact.html" titel="Anne's contactInfo">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="hero">
       <div class="heading">
         <h2 class="text-center">Hi there! 👋 I am</h2>
         <h1 class="text-center">Anne Krauel</h1>
@@ -82,8 +81,7 @@
           Germany
         </h3>
       </div>
-      <div class="button-links">
-        <a class="about-link" href="about.html">About me</a>
+      <div class="ContactButton">
         <a class="primary-link" href="index.html#contact-info">Contact me</a>
       </div>
     </div>

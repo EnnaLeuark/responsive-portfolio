@@ -5,6 +5,46 @@
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
+#logo {
+  max-width: 120px;
+}
+
+#logoSmall {
+  max-width: 40px;
+}
+
+nav {
+  padding: 20px 0;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #272142;
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--main-color);
+}
+
+.hero {
+  background-color: #feffdf;
+  padding: 80px 20px;
+}
+
 .heading-center {
   font-family: "Dancing Script", cursive;
   text-align: center;
@@ -54,20 +94,20 @@ img {
   width: max-content;
 }
 
-.button-links {
+.contactButton {
   display: flex;
   justify-content: center;
   margin: 40px 0;
 }
 
-.button-links a {
+.contactButton a {
   border-radius: 4px;
   margin: 20px;
   text-transform: capitalize;
   padding: 20px 15px;
 }
 
-.button-links a:hover {
+.contactButton a:hover {
   font-weight: bold;
   color: darkred;
   text-decoration: none;
@@ -79,12 +119,6 @@ img {
   color: white;
   text-decoration: none;
   padding: 20px 15px;
-}
-
-.about-link {
-  color: var(--main-color);
-  border: 1px solid var(--main-color);
-  text-decoration: none;
 }
 
 .AppImgBackground {
