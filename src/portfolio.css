@@ -189,11 +189,13 @@ img {
 }
 
 .email-link:hover {
-  text-decoration: underline;
+  font-weight: bold;
+  color: darkred;
+  text-decoration: none;
 }
 
 #contact-info {
-  margin: 30px;
+  margin: 10px 0;
 }
 #contact-info h2 {
   font-family: "Dancing Script", cursive;
@@ -208,6 +210,14 @@ img {
 #profilePicture {
   width: 300px;
   margin: 0 50px 0 0;
+}
+
+footer {
+  display: block;
+  text-align: center;
+  font-family: var(--main-font);
+  font-size: medium;
+  color: rgb(59, 59, 59);
 }
 
 @media (max-width: 576px) {
