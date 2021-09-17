@@ -213,6 +213,7 @@ footer {
   line-height: 1.5;
   text-align: center;
   margin: 20px 300px;
+  display: block;
 }
 
 .about-page img {
@@ -229,7 +230,7 @@ footer {
 /* work-page */
 
 .work-section h2 {
-  font-family: "Chelsea Market", cursive;
+  font-family: var(--main-font);
   margin: 40px 0;
 }
 
@@ -239,9 +240,25 @@ footer {
   margin: 0 auto;
   text-align: center;
   font-family: var(--main-font);
+  font-size: 24px;
+}
+
+.col-mb-12 {
+  margin: 50px auto;
+  width: 40%;
+}
+
+.contact-form button {
+  display: block;
+  margin: 0 auto;
+  padding: 15px 20px;
 }
 
 @media (max-width: 576px) {
+  .hero {
+    padding: 20px;
+  }
+
   h1 {
     font-size: 60px;
     line-height: 1.5;
@@ -280,16 +297,72 @@ footer {
     margin: 25px;
   }
 
-  .about-me img {
-    width: 100px;
+  /* about-page */
+
+  .about-page .hero {
+    padding: 20px;
+  }
+
+  .about-page h1 {
+    font-size: 48px;
+  }
+
+  .allProjects {
+    font-size: medium;
+    padding: 10px;
+  }
+
+  .about-page p {
     margin: 0;
     display: block;
     text-align: center;
   }
 
-  .about-me p {
+  .about-page img {
+    width: 250px;
     margin: 0;
     display: block;
     text-align: center;
+  }
+
+  /* work-page */
+
+  .about-page p {
+    display: block;
+    text-align: center;
+  }
+
+  /* contact-page */
+
+  .contact-form {
+    margin: 0 auto;
+    text-align: center;
+    font-family: var(--main-font);
+    font-size: 14px;
+  }
+
+  .col-mb-12 {
+    margin: 50px auto;
+    width: 70%;
+  }
+
+  .contact-form button {
+    display: block;
+    margin: 0 auto;
+    padding: 15px 20px;
+    font-size: medium;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-page p {
+    padding: 20px;
+    border-radius: 4px;
+    font-size: 20px;
+    font-family: var(--main-font);
+    line-height: 1.5;
+    text-align: center;
+    display: block;
+    margin: 0 80px;
   }
 }
