@@ -229,8 +229,16 @@ footer {
 /* work-page */
 
 .work-section h2 {
-  font-family: var(--main-font);
+  font-family: "Chelsea Market", cursive;
   margin: 40px 0;
+}
+
+/* contact-page */
+
+.contact-form {
+  margin: 0 auto;
+  text-align: center;
+  font-family: var(--main-font);
 }
 
 @media (max-width: 576px) {

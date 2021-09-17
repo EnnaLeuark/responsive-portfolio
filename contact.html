@@ -32,6 +32,12 @@
       href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap"
+      rel="stylesheet"
+    />
     <link href="src/portfolio.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
@@ -53,6 +59,43 @@
           </li>
         </ul>
       </nav>
+    </div>
+    <div class="contact-section">
+      <h2 class="text-center">Let's get in touch!</h2>
+    </div>
+    <div class="container-md">
+      <div class="contact-form">
+        <div class="row">
+          <div class="col-mb-8">
+            <form
+              class="border p-3 rounded mb-3"
+              action="https://formspree.io/f/mleazndk"
+              method="POST"
+            >
+              <div class="mb-3">
+                <label class="form-label">Your email:</label>
+
+                <input
+                  type="email"
+                  name="_replyto"
+                  class="form-control"
+                  required=""
+                  autofocus=""
+                />
+              </div>
+              <div class="mb-3">
+                <label class="form-label">Your message:</label>
+                <textarea
+                  name="message"
+                  class="form-control"
+                  required=""
+                ></textarea>
+              </div>
+              <button class="appLinks primary-link" type="submit">Send</button>
+            </form>
+          </div>
+        </div>
+      </div>
     </div>
     <footer>
       <div id="contact-info">
